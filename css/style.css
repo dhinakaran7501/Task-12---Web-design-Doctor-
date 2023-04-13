@@ -1,0 +1,110 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	.main_container_1{
+		background-color:black;
+		background-image:url('../image/hero-bg.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+		height: 386px;
+	}
+	.sub_container{
+		margin:0 auto;
+		width:90%;
+		padding: 88px;
+	}
+	.sub_container_1 h1{
+		font-size: 38px;
+		padding: 10px 10px 10px 0px;
+	}
+	.sub_container_1 p{
+		font-size: 20px;
+		padding: 0px 10px 10px 0px;
+		margin: 0px 0px 10px 0px;
+	}
+	.get_started a{
+	    background-color: blue;
+		color: white;
+		text-decoration: none;
+		border-radius: 24px;
+		padding: 8px;
+		display: block;
+		width: 138px;
+		text-align: center;
+	}
+	
+	
+	.sub_container_box{
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+		margin-top:-117px;
+	}
+	.sub_container_box .one{
+		background-color:#3535c0;
+		color:white;
+		width: 320px;
+		height: 368px;
+	    box-shadow: 4px 4px 16px black;	
+		border-radius:4px;
+	}
+	.sub_container_box h1{
+		margin:15px;
+		font-size: 34px;
+	}
+	.sub_container_box .lorem{
+		margin:15px;
+		font-size: 20px;
+		
+	}
+	.sub_container_box .learn_more{
+		display:flex;
+		justify-content:center;
+		font-size:17px;
+	}
+	.sub_container_box a{
+	    border: 1px solid #7979b3;
+		border-radius: 15px;
+		background-color: #7979b3;
+		text-decoration: none;
+		color: white;
+		padding: 5px;
+		width: 140px;
+		text-align: center;
+	}
+	.sub_container_box .two, .three, .four{
+	    width: 202px;
+		height: 296px;
+		background-color: white;
+		border-radius: 10px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 16px;
+		box-shadow: 4px 4px 16px black;
+	}
+	.sub_container_box .two>span{
+		font-size: 32px;
+		color: blue;
+	}
+	.sub_container_box .three>span{
+		font-size: 32px;
+		color: blue;
+	}
+	.sub_container_box .four>span{
+		font-size: 32px;
+		color: blue;
+	}
+	.sub_container_box .two>h2{
+		font-size: 28px;
+	}
+	.sub_container_box .three>h2{
+		font-size: 28px;
+	}
+	.sub_container_box .four>h2{
+		font-size: 28px;
+	}
